@@ -35,6 +35,11 @@ int main(int argc, char** argv) {
 			break;
 			}
 		}
+		case 3:{
+			cout << "I know remember.";
+			cout << " " << endl;
+			break;
+		}
 	}
 	system("pause");
 	return 0;
