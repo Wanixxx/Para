@@ -1,15 +1,15 @@
 #include <iostream>
 
 using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* run this program using the console pauser or add your own getch, system("pause") or input loop  */
 
 int main(int argc, char** argv) {
 	setlocale(LC_ALL, "Russian");
 	int Array[5] = {1, 2, 3, 4, 5};
 	int choise;
 	while(true){
-		cout << "Âûáåðèòå ôóíêöèþ: 0 - âûéòè |1 - âûâîä ìàññèâà | 2 - Âûáîð íîìåðà ýëåìåíòà ìàññèâà ïî èíäåêñó" << endl;
-		cout << "Ââåäèòå ÷èñëî: ";
+		cout << "Ã‚Ã»Ã¡Ã¥Ã°Ã¨Ã²Ã¥ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¾: 0 - Ã¢Ã»Ã©Ã²Ã¨ |1 - Ã¢Ã»Ã¢Ã®Ã¤ Ã¬Ã Ã±Ã±Ã¨Ã¢Ã  | 2 - Ã‚Ã»Ã¡Ã®Ã° Ã­Ã®Ã¬Ã¥Ã°Ã  Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã  Ã¬Ã Ã±Ã±Ã¨Ã¢Ã  Ã¯Ã® Ã¨Ã­Ã¤Ã¥ÃªÃ±Ã³" << endl;
+		cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®: ";
 		cin >> choise;
 		switch(choise){
 			case 0:{
@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
 				return 0;
 		}
 		case 1:{
-			cout << "Âûâîä ìàññèâà"<< endl;
+			cout << "Ã‚Ã»Ã¢Ã®Ã¤ Ã¬Ã Ã±Ã±Ã¨Ã¢Ã "<< endl;
 			for (int i = 0; i < 5; i++){
 				cout << Array[i] << " ";
 			}
@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
 			break;
 		}
 		case 2:{
-			cout << "Ââåäèòå èíäåêñ ìàññèâà: ";
+			cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¨Ã­Ã¤Ã¥ÃªÃ± Ã¬Ã Ã±Ã±Ã¨Ã¢Ã : ";
 			int numberEL;
 			cin >> numberEL;
 			int numberValue;
